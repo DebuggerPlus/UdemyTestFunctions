@@ -114,11 +114,10 @@ function checkSavings() {
 
 checkSavings();
 
-function chooseOptExpenses () {
-let OptionalExpenses = {
+let OptionalExpenses = {};        
 
-    1,
-    2
+function ChooseOptExpenses () {  
+for(let i = 1; i < 4; i++){
+   OptionalExpenses[i] = prompt("обязательная статья расходов", '');   
 }
-
 }
