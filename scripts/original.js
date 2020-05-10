@@ -84,7 +84,7 @@ chooseExpenses(); */
 // }
 
 
-function incomelevel(IncomePerDay) {
+function detectLevel(IncomePerDay) {
     let level;
 
     if(IncomePerDay < 100) {
@@ -100,7 +100,7 @@ function incomelevel(IncomePerDay) {
     return level;
 }
 
-let textforoutput = incomelevel(appData.moneyPerDay);
+let textforoutput = detectLevel(appData.moneyPerDay);
 alert(textforoutput);
 
 function checkSavings() {
