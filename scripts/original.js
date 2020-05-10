@@ -113,3 +113,12 @@ function checkSavings() {
 }
 
 checkSavings();
+
+function chooseOptExpenses () {
+let OptionalExpenses = {
+
+    1,
+    2
+}
+
+}
